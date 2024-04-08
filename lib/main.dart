@@ -13,6 +13,7 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Airbnb Page Example",
+      theme: ThemeData.from(colorScheme: ColorScheme.fromSeed(seedColor: Colors.pink.shade600)),
       home: HomeScreen(),
     );
   }
