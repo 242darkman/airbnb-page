@@ -17,6 +17,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
               )
             ],
           bottom: const TabBar(
+            tabAlignment: TabAlignment.start,
             isScrollable: true,
             tabs: <Widget>[
               Tab(
