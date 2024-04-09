@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      appBar: CustomAppBar(),
+      //appBar: CustomAppBar(),
       body: ListView.builder(
           padding: const EdgeInsets.all(10),
           itemCount: locations.length,
