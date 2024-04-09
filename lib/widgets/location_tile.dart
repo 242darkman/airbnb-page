@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/location.dart';
-import 'favorite_button.dart';
+import 'button/favorite_button.dart';
 import 'members_favorite.dart';
 
 

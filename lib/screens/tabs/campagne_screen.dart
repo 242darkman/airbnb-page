@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import '../models/location.dart';
-import '../widgets/location_tile.dart';
-import '../widgets/app_bar.dart';
+import '../../models/location.dart';
+import '../../widgets/location_tile.dart';
 
-class HomeScreen extends StatelessWidget {
+class CampagneScreen extends StatelessWidget {
 
   final List<Location> locations = [
     Location(

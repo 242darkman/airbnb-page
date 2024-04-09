@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../screens/home.dart';
+import '../../screens/tabs/campagne_screen.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
@@ -46,7 +46,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
         ),
         body: TabBarView(
           children: [
-            HomeScreen(),
+            CampagneScreen(),
             Text('Sur l\'eau'),
             Text('Avec vue'),
             Text('Bord de mer'),
