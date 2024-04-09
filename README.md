@@ -18,4 +18,4 @@ flutter run
 
 ### Aperçu de l'interface
 
-![Rendu de l'aaplication](./assets/airbnb-page-example.png){:style="display:block; margin-left:auto; margin-right:auto"}
+![Rendu de l'application](./assets/airbnb-page-example.png "Affichage de la page d'accueil")
